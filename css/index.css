@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+.menu-1 {
+    background-color: #03002b;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    background-image: url("/imgs/earth_connectivity.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.MenuText {
+    font-family: 'Silkscreen', cursive;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+.menu-2 {
+    background-color: #010011;
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+}
+
+.menu-4 {
+    background-color: #010011;
+    width: 100%;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-3 {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
